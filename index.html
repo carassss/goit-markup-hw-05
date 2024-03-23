@@ -495,25 +495,26 @@
 		</footer>
 		<div class="modal-overlay">
 			<div class="modal">
-				<button class="close-modal-btn">
-					<svg>
-						<use
-							href="./images/icons.svg#icon-close-black-18dp-2-1"
-							width="8"
-							height="8"
-						></use>
+				<button class="close-modal-btn" type="button">
+					<svg width="8" height="8" class="close-modal-icon">
+						<use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
 					</svg>
 				</button>
 				<p class="modal-text">Leave your contacts and we will call you back</p>
 				<form class="modal-form">
 					<div class="modal-form-wrap">
 						<label class="form-label" for="user-name">Name</label>
-						<input
-							class="form-input"
-							type="text"
-							name="user-name"
-							id="user-name"
-						/>
+						<div class="form-item-container">
+							<input
+								class="form-input"
+								type="text"
+								name="user-name"
+								id="user-name"
+							/>
+							<svg width="18" height="24" class="form-input-icon">
+								<use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+							</svg>
+						</div>
 					</div>
 					<div class="modal-form-wrap">
 						<label class="form-label" for="user-tel">Phone</label>
