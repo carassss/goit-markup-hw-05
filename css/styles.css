@@ -657,11 +657,11 @@ input {
 	border: none;
 }
 
-.close-modal-btn:hover + .close-modal-icon {
+.close-modal-btn:hover .close-modal-icon {
 	fill: #ffffff;
 }
 
-.close-modal-btn:focus + .close-modal-icon {
+.close-modal-btn:focus .close-modal-icon {
 	fill: #ffffff;
 }
 
