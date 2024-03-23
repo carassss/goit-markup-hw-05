@@ -777,10 +777,14 @@ input {
 	cursor: pointer;
 }
 
-.privacy-checkbox:checked .privacy-policy-link {
+.privacy-checkbox:checked + .privacy-policy-text span {
 	background-color: #404bbf;
 	border: none;
 	fill: #f4f4fd;
+}
+
+.privacy-policy-link {
+	color: #4d5ae5;
 }
 
 .privacy-policy-text {
@@ -811,13 +815,12 @@ input {
 }
 
 .modal-btn {
-	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
 	border-radius: 4px;
 	padding: 16px 32px;
-	width: 169px;
+	min-width: 169px;
 	height: 56px;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 	background: #4d5ae5;
@@ -830,6 +833,7 @@ input {
 	color: #fff;
 	cursor: pointer;
 	margin-top: 24px;
+	display: block;
 }
 
 .modal-form-wrap {
