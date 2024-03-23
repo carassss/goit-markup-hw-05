@@ -657,11 +657,11 @@ input {
 	border: none;
 }
 
-.close-modal-btn:hover .close-modal-icon {
+.close-modal-btn:hover + .close-modal-icon {
 	fill: #ffffff;
 }
 
-.close-modal-btn:focus .close-modal-icon {
+.close-modal-btn:focus + .close-modal-icon {
 	fill: #ffffff;
 }
 
@@ -720,7 +720,7 @@ input {
 	border-color: #4d5ae5;
 }
 
-.form-input:focus .form-input-icon {
+.form-input:focus + .form-input-icon {
 	border-color: #4d5ae5;
 	fill: #4d5ae5;
 }
@@ -834,6 +834,7 @@ input {
 	cursor: pointer;
 	margin-top: 24px;
 	display: block;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-wrap {
