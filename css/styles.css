@@ -792,7 +792,7 @@ input {
 	margin-top: 16px;
 }
 
-.privacy-policy-link {
+.checked-marker {
 	line-height: 1.33333;
 	text-decoration: underline;
 	text-decoration-skip-ink: none;
