@@ -533,6 +533,11 @@ input {
 	box-sizing: border-box;
 }
 
+.footer-form {
+	display: flex;
+	gap: 24px;
+}
+
 .footer-label {
 	font-weight: 500;
 	font-size: 16px;
