@@ -37,10 +37,6 @@ address {
 	font-style: normal;
 }
 
-svg use {
-	fill: none;
-}
-
 input {
 	font-family: inherit;
 }
@@ -657,6 +653,14 @@ input {
 	border: none;
 }
 
+.close-modal-btn:hover .close-modal-icon {
+	fill: #ffffff;
+}
+
+.close-modal-btn:focus .close-modal-icon {
+	fill: #ffffff;
+}
+
 .close-modal-icon {
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	fill: #2e2f42;
@@ -832,12 +836,4 @@ input {
 
 .modal-form-wrap {
 	margin-bottom: 8px;
-}
-
-.close-modal-btn:hover > .close-modal-icon {
-	fill: #ffffff;
-}
-
-.close-modal-btn:focus > .close-modal-icon {
-	fill: #ffffff;
 }
