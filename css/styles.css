@@ -520,13 +520,7 @@ input {
 }
 
 .footer-form-container {
-	display: flex;
-	gap: 24px;
-	width: 453px;
-	height: 80px;
-	position: relative;
-	margin-left: 80px;
-	box-sizing: border-box;
+	margin-left: auto;
 }
 
 .footer-form {
@@ -550,7 +544,6 @@ input {
 	width: 264px;
 	height: 40px;
 	padding-left: 16px;
-	margin-right: 24px;
 	background-color: transparent;
 	color: #fff;
 	font-weight: 400;
@@ -590,9 +583,6 @@ input {
 	background: #4d5ae5;
 	cursor: pointer;
 	border: none;
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
 	min-width: 165px;
 }
 
@@ -623,6 +613,7 @@ input {
 	top: 50%;
 	left: 50%;
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transform: translate(-50%, -50%);
 }
 
 .close-modal-btn {
@@ -708,7 +699,6 @@ input {
 	outline: transparent;
 	height: 40px;
 	background-color: transparent;
-	margin-bottom: 8px;
 	width: 100%;
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -765,13 +755,6 @@ input {
 }
 
 .privacy-checkbox {
-	border-radius: 2px;
-	border: 1px solid rgba(46, 47, 66, 0.4);
-	width: 16px;
-	height: 16px;
-	margin-right: 8px;
-	margin-top: 16px;
-	cursor: pointer;
 }
 
 .privacy-checkbox:checked + .privacy-policy-text span {
@@ -790,7 +773,6 @@ input {
 	line-height: 1.17;
 	letter-spacing: 0.04em;
 	color: #8e8f99;
-	margin-top: 16px;
 }
 
 .checked-marker {
@@ -829,7 +811,7 @@ input {
 	text-align: center;
 	color: #fff;
 	cursor: pointer;
-	margin-top: 24px;
+	margin: 0 auto;
 	display: block;
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
